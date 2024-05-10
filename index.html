@@ -1,19 +1,18 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="icon" type="image/png" href="./public/WhatsApp Image 2023-10-04 at 16.47.23.jpeg">
+    <title>C.V Gabriel_Dev</title>
+    <link rel="icon" type="image/png" href="./public/perfil.jpeg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav> 
             <ul>
-                <!-- <li>
-                    <a href="#about">Sobre mí</a>
-                </li> -->
                 <li>
                     <a href="#skills">Skills</a>
                 </li>
@@ -24,7 +23,7 @@
                     <a href="#contact">Contacto</a>
                 </li>
                 <li>
-                    <a href="./public/CVGabrielDev.pdf" target="_blank" download="cv">Descargar</a>
+                    <a href="./public/Dev_Gabriel.pdf" target="_blank" download="cv">Descargar</a>
                 </li>
             </ul>
         </nav>
@@ -33,8 +32,7 @@
         <section id="about">
             <div class="about-container">
                 <div class="image-container">
-                    <img src="./public/WhatsApp Image 2023-10-04 at 16.47.23.jpeg" alt="Foto de perfil">
-                    <h1></h1>
+                    <img src="./public/perfil.jpeg" alt="Foto de perfil">
                 </div>
                 <div class="text-container">
                     <p>
@@ -44,23 +42,12 @@
                         entendiendo los momentos de autonomía y de trabajo en equipo.
                     </p>
                 </div>
-                <!-- <div class="bajo-texto">
-                    <ul>
-                        <li>
-                            <p>Soy Gabriel Garcia</p>
-                        </li>
-                        <li>
-                            <p>FullStack_Dev JUNIOR</p> 
-                        </li>
-                    </ul>
-                </div> -->
             </div>
         </section>
         <section id="skills">
             <div class="cajitaSkills">
                 <h3 class="skills-h3">SKILLS</h3>
                 <form class="form">
-                    <label for="filter"></label>
                     <input type="text" name="filter" id="filter" onkeyup="filterSkills()" placeholder="Buscar 🕵️">
                 </form>
             </div>
@@ -108,11 +95,22 @@
                             <img src="data:image/png;base64,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">
                         </div>
                     </li>
+                    <li>
+                        <p>REACT</p>
+                        <div class="caja-img">
+                            <img src="https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon.png">
+                        </div>
+                    </li>
+                    <li>
+                        <p>MongoDB</p>
+                        <div class="caja-img">
+                            <img src="https://www.pngall.com/wp-content/uploads/13/Mongodb-PNG-Image-HD.png">
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
         <section id="portfolio">
-            <!-- <h3>PORTFOLIO 🚀</h3> -->
             <a href="https://proyecto-portfolio-eta.vercel.app/#" target="_blank">
                 <div class="btn-portfolio">
                    <a href="https://gabi-garcia-portfolio.vercel.app/#" target="_blank">Te invito a ver mi Portfolio</a>
@@ -120,7 +118,6 @@
             </a>
         </section>
         <section id="contact">
-            <!-- <h3>CONTACTAME Y CONTRATAME</h3> -->
             <div class="container-contactame">
                         <div class="contactame-box">                      
                             <a href="mailto:gabriel.garcia.development@gmail.com">
@@ -149,22 +146,9 @@
                             </div>
                             <p>671350519</p>                   
                         </div>
-                        <div  class="cajita-doble">
-                            <div class="img-contactame">
-                                <img src="./public//direccion-de-casa.png" alt="home-image">
-                            </div>
-                            <p>Barcelona</p>
-                        </div>
             </div>
         </section> 
     </main>
-    <footer>
-        <!-- <p>Creado por Gabi-Garcia</p>
-        <img src="./public/WhatsApp Image 2023-10-04 at 16.47.23.jpeg"> -->
-    </footer>
-
-
-
   <script src="main.js"></script>
 </body>
 </html>
